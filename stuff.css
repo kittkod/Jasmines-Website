@@ -1,3 +1,34 @@
 body {
-    background-color: pink;
+    background-color: rgb(236, 216, 219);
+    margin: 0 10%;
+    font-family: sans-serif;
+}
+
+h1 {
+    color: #382828;
+    text-align: left;
+    font-family: Arial;
+    font-weight: normal;
+    text-transform: uppercase;
+    border-bottom: 1px solid #c25454;
+    margin-top: 30px;
+}
+  
+h2 {
+    color: #c25454;
+    font-weight: normal;
+    font-size: 1.5em;
+}
+
+h4 {
+    text-align: center;
+    background-color: #c2545448;
+    border: 1px solid #c25454;
+    font-family: Arial;
+    font-weight: normal;
+    color: rgb(109, 61, 61);
+}
+
+mark {
+    background-color: #ffe291
 }
