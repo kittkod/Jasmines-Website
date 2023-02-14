@@ -25,6 +25,11 @@ h2 {
     font-size: 1.5em;
 }
 
+h3 {
+    font-weight: normal;
+    color: #b37474
+}
+
 h4 {
     text-align: center;
     background-color: #c2545448;
@@ -86,4 +91,8 @@ li a {
   
 li a:visited {
     color:#382828;
+}
+
+indent {
+    padding-left:50px;
 }
