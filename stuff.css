@@ -93,6 +93,26 @@ li a:visited {
     color:#382828;
 }
 
-indent {
-    padding-left:50px;
+img {
+    border-color: #c25454;
+}
+
+.container {
+    display: grid;
+    align-items: center; 
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 5px;
+}
+   
+img {
+    max-width: 100%;
+    max-height:100%;
+}
+   
+.text {
+    font-size: default;
+}
+
+funfact {
+    color: #b88585;
 }
