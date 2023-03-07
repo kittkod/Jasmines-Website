@@ -6,37 +6,37 @@ body {
 
     /* these will reset other properties, like background-position, but it does know what you mean */
     /*background: red;*/
-    background: linear-gradient(rgb(218, 177, 177), rgb(255, 255, 255));
+    background: linear-gradient(rgb(207, 211, 231), rgb(255, 255, 255));
 }
 
+/* rgb(218, 177, 177) */
 h1 {
-    color: #382828;
+    color: rgb(103, 107, 128);
     text-align: center;
     font-family: Arial;
     font-weight: normal;
-    text-transform: uppercase;
-    border-bottom: 1px solid #c25454;
+    text-transform: lowercase;
     margin-top: 30px;
 }
   
 h2 {
-    color: #c25454;
+    color: rgb(103, 107, 128);
     font-weight: normal;
     font-size: 1.5em;
 }
 
 h3 {
     font-weight: normal;
-    color: #b37474
+    color: rgb(103, 107, 128)
 }
 
 h4 {
     text-align: center;
-    background-color: #c2545448;
-    border: 1px solid #c25454;
+    background-color: rgba(99, 114, 143, 0.534);
+    border: 1px solid #c2ddf0;
     font-family: Arial;
     font-weight: normal;
-    color: rgb(109, 61, 61);
+    color: rgb(79, 80, 87);
 }
 
 mark {
@@ -94,7 +94,7 @@ li a:visited {
 }
 
 img {
-    border-color: #c25454;
+    border-color: rgb(214, 215, 219);
 }
 
 .container {
@@ -108,11 +108,18 @@ img {
     max-width: 100%;
     max-height:100%;
 }
+
+.avatar {
+    vertical-align: middle;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
    
 .text {
     font-size: default;
 }
 
 funfact {
-    color: #b88585;
+    color: rgb(255, 255, 255);
 }
